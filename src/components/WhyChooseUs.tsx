@@ -8,7 +8,7 @@ export default function WhyChooseUs({ data }: { data: any }) {
 
   const features = data?.features;
   // const imageUrl = "https://localhost:1337" + features?.[activeIndex]?.images?.url + "?width=379&height=379";
-  const imageUrl = process.env.NEXT_PUBLIC_STRAPI_URL + features?.[activeIndex]?.images?.url +"?width=379&height=379"
+  const imageUrl = process.env.NEXT_PUBLIC_STRAPI_API_URL + features?.[activeIndex]?.images?.url +"?width=379&height=379"
   console.log(">>>>>>>>>>>>>>> features >>>>>>>>>>>>>>>>>",imageUrl);
 
   return (

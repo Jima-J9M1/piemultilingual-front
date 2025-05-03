@@ -7,6 +7,9 @@ const nextConfig: NextConfig = {
       {
         hostname: 'localhost',
       },
+      {
+        hostname: 'piemultilingual-strap.onrender.com',
+      },
     ],
   },
 };
